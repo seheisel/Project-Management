@@ -38,6 +38,8 @@ mers$epi.day <- as.numeric(mers$onset2 - day0)
 #plotting data
 ggplot(mers)
 
+HELLO
+
 ggplot(data=mers) + 
   geom_bar(mapping=aes(x=epi.day)) +
   labs(x='Epidemic day', y='Case count', title='Global count of 
